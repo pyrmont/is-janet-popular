@@ -2,7 +2,7 @@
 (import json)
 
 
-(def search-url "https://api.github.com/search/code?q=filename%3Aproject.janet")
+(def search-url "https://api.github.com/search/code?q=extension%3Ajanet+filename%3Aproject.janet")
 (def headers {"Authorization" (string "token " (os/getenv "API_TOKEN"))})
 
 
