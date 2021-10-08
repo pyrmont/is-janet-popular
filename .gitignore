@@ -1,0 +1,6 @@
+/build/
+/modules/
+/netrepl
+/public/*
+
+!/public/.gitkeep
